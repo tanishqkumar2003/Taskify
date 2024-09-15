@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import CreateTodo from '../components/CreateTodo'
 import Todos from '../components/Todos'
 import './App.css'
+import Header from '../components/Header';
 
 function App() {
 
@@ -18,13 +19,14 @@ function App() {
 
   // Call the fetch function
   fetchTodos();
-}, []);
+}, [todos]);
 
 
   return (
    <div>
-    <CreateTodo/>
-    <Todos todo={todos} />
+    <Header />
+    <CreateTodo />
+    <Todos todos={todos} />
    </div>
   )
 }
