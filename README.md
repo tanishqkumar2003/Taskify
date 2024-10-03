@@ -20,7 +20,7 @@ A simple and intuitive Todo application that allows users to manage their tasks 
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/tanishqkumar2003/todoApp.git
 
 2. Navigate to the project directory:
    
@@ -36,10 +36,10 @@ A simple and intuitive Todo application that allows users to manage their tasks 
 
 
 ## API Endpoints
-GET /api/v1/todo/get - Fetch all todos
-POST /api/v1/todo/create - Create a new todo
-PUT /api/v1/todo/completed - Mark a todo as completed
-DELETE /api/v1/todo/delete - Delete a todo
+- GET /api/v1/todo/get - Fetch all todos
+- POST /api/v1/todo/create - Create a new todo
+- PUT /api/v1/todo/completed - Mark a todo as completed
+- DELETE /api/v1/todo/delete - Delete a todo
 
 
 ## Contributing
