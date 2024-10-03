@@ -24,7 +24,8 @@ const todoSchema = mongoose.Schema(
     },
     priority: {
       type: String,
-      enum: ['high', 'low']
+      enum: ['high', 'low'],
+      default:"high"
     }
   },
   {
